@@ -47,11 +47,6 @@ local_deploy_dir = path.dirname(__file__)
 
 local_vcs_root = path.abspath(path.join(local_deploy_dir, os.pardir))
 
-#relative_django_dir = path.join('django', 'website')
-
-# the directory the settings live in, relative to the vcs root
-#relative_django_settings_dir = relative_django_dir
-
 # the path from the VCS root to the virtualenv dir
 relative_ve_dir = path.join(local_vcs_root, '.ve')
 
